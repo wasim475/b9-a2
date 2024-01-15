@@ -1,0 +1,90 @@
+/* =================================================
+                 #Common Shared css Start
+=================================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    font-family: "Mulish", sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* =================================================
+                 #Common Shared css end
+=================================================== */
+/* =================================================
+                 #Navbar start
+=================================================== */
+.navBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar ul{
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+
+.navBar .travel{
+    color: #FF5400;
+}
+.navBar h1{
+    font-size: 36px;
+    font-weight: 800; 
+    margin: 50px 0;
+}
+/* =================================================
+                 #Navbar End
+=================================================== */
+/* =================================================
+                 #Explor part Start
+=================================================== */
+.explore{
+    position: relative;
+}
+.explore .exploreContent{
+    width: 676px;
+    margin: 0 auto;
+    position: absolute;
+    top: 87px;
+    right: 287px;
+    left: 287px;
+}
+.explore .exploreContent h1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.explore .exploreContent p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.findOptions{
+    background: rgba(255, 255, 255, 0.30);
+    text-align: center;
+}
+.findOptions input{
+    width: 174px;
+    height: 52px;
+    padding: 5px 16px;
+}
+/* =================================================
+                 #Explor part End
+=================================================== */
+           
