@@ -229,6 +229,226 @@ form{
 /* =================================================
                  #photo-galary End
 =================================================== */
+/* =================================================
+                 #why choose us start
+=================================================== */
+.why-choose-us{
+    width: 50%;
+    margin: 0 auto;
+}
+.why-choose-us h1{
+    color: #131318;
+    text-align: center; 
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.why-choose-us p{
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70); 
+    line-height: 26px;
+}
+/* =================================================
+                 #why choose us End
+=================================================== */
+
+/* =================================================
+                 #services start
+=================================================== */
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 12px;
+    row-gap: 24px;
+    
+}
+.services .box{
+    width: 48%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.services .box img{
+    margin: 0 16px;
+}
+.services .box h3{
+    color: #131318;
+    font-size: 24px;
+    margin: 32px 16px 16px;
+}
+.services .box p{
+    color: #131318;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 16px;
+}
+.services .box-1{
+    background: rgba(251, 181, 99, 0.05)
+}
+.services .box-2{
+    background: rgba(41, 206, 246, 0.05)
+}
+.services .box-3{
+    background: rgba(233, 68, 68, 0.05); 
+}
+/* =================================================
+                 #services End
+=================================================== */
+
+
+/* =================================================
+                 #deals-and-discount start
+=================================================== */
+.deals-and-discount{
+    width: 50%;
+    margin: 0 auto;
+}
+.deals-and-discount h1{
+    color: #131318;
+    text-align: center; 
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.deals-and-discount p{
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70); 
+    line-height: 26px;
+}
+/* =================================================
+                 #deals-and-discount End
+=================================================== */
+/* =================================================
+                 #tour-to-satorini Start
+=================================================== */
+.tour-to-satorini .package-1{
+    position: relative;
+}
+
+.tour-to-satorini .package-2{
+    position: relative;
+}
+.tour-to-satorini .package-3{
+    position: relative;
+}
+/* .package-1 */
+.tour-to-satorini .package-1 .package-content{
+    width: 579px;
+    background: rgba(255, 255, 255, 0.80);
+    position: absolute;
+    top: 56px;
+    right: 56px;
+    padding: 40px;
+}
+.tour-to-satorini .package-1 .package-content h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px;
+}
+.tour-to-satorini .package-1 .package-content p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+    margin: 16px 20px;
+}
+ .package-content .package-1 .package-content .icon{
+    color: #FF5400;
+    margin: 16 20px;
+    margin-left: 10px;
+}
+.package-content .package-1 .package-content span{
+    margin-right: 20px;
+}
+ .package-content .package-1 .package-content .price{
+    color: #FF5400;
+    margin: 16px 20px;
+ }
+ .package-content .package-1 .package-content .book-now{
+    margin-bottom: 32px;
+    margin-left: 16px;
+ }
+/* Package-2 */
+.tour-to-satorini .package-2 .package-content{
+    width: 579px;
+    background: rgba(255, 255, 255, 0.80);
+    position: absolute;
+    top: 56px;
+    left: 56px;
+    padding: 40px;
+}
+.tour-to-satorini .package-2 .package-content h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px;
+}
+.tour-to-satorini .package-2 .package-content p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+    margin: 16px 20px;
+}
+ .package-content .package-2 .package-content .icon{
+    color: #FF5400;
+    margin: 16 20px;
+    margin-left: 10px;
+}
+.package-content .package-2 .package-content span{
+    margin-right: 20px;
+}
+ .package-content .package-2 .package-content .price{
+    color: #FF5400;
+    margin: 16px 20px;
+ }
+ .package-content .package-2 .package-content .book-now{
+    margin-bottom: 32px;
+    margin-left: 16px;
+ }
+/* package-3 */
+.tour-to-satorini .package-3 .package-content{
+    width: 579px;
+    background: rgba(255, 255, 255, 0.80);
+    position: absolute;
+    top: 56px;
+    right: 56px;
+    padding: 40px;
+}
+.tour-to-satorini .package-3 .package-content h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px;
+}
+.tour-to-satorini .package-3 .package-content p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+    margin: 16px 20px;
+}
+ .package-content .icon{
+    color: #FF5400;
+    margin: 16 20px;
+    margin-left: 10px;
+}
+.package-content .package-3 .package-content span{
+    margin-right: 56px;
+}
+ .package-content .price{
+    color: #FF5400;
+    margin: 16px 20px;
+    font-size: 20px;
+    font-weight: 800;
+ }
+ .package-content .book-now{
+    margin-bottom: 32px;
+    margin-left: 16px;
+ }
+/* =================================================
+                 #tour-to-satorini End
+=================================================== */
 
 
 
@@ -296,6 +516,27 @@ form{
     .popular-tour-img img{
         max-width: 100%;
     }
+    .why-choose-us h1{
+        font-size: 20px; 
+        margin-bottom: 16px;
+    }
+    .why-choose-us p{
+        font-size: 14px; 
+        line-height: 24px;
+        
+    }
+    .why-choose-us{
+        width: 100%;
+       
+    }
+    .photo-galary{
+        flex-direction: column;
+        row-gap: 12px;
+    }
+    .photo-galary img{
+        max-width: 100%;
+        height: auto;
+    }
     .choose-your-destination h1{
         font-size: 20px; 
         margin-bottom: 16px;
@@ -309,14 +550,120 @@ form{
         width: 100%;
        
     }
-    .photo-galary{
+    .services .box h3{
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+        margin: 10 16px;
+    }
+    .services .box p{
+        color: #131318;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0 16px;
+    }
+    .services{
         flex-direction: column;
-        row-gap: 12px;
     }
-    .photo-galary img{
+    .services .box{
+        width: 100%;
+        
+    }
+    
+
+    .deals-and-discount h1{
+        font-size: 20px; 
+        margin-bottom: 16px;
+    }
+    .deals-and-discount p{
+        font-size: 14px; 
+        line-height: 24px;
+        
+    }
+    .deals-and-discount{
+        width: 100%;
+       
+    }
+    .package-content .price{
+        margin: 10px 5px;
+        font-size: 14px;
+     }
+     .package-content .book-now{
+        margin-bottom: 12px;
+        margin-left: 5px;
+     }
+     .package-content .icon{
+        margin: 5px 2px;
+        margin-left: 2px;
+    }
+    .tour-to-satorini img{
         max-width: 100%;
-        height: auto;
+        height: 297px;
+        margin-bottom: 16px;
     }
+    .tour-to-satorini .package-3 .package-content{
+        width: 303px;
+        left: 16px;
+        top: 64px;
+        padding: 5px;
+    }
+    .tour-to-satorini .package-3 .package-content h3{
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+        margin: 2px;
+    }
+    .tour-to-satorini .package-3 .package-content p{
+        color: #131318;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        margin: 2px;
+    }
+
+    
+    .tour-to-satorini .package-2 .package-content{
+        width: 303px;
+        left: 16px;
+        top: 64px;
+        padding: 5px;
+    }
+    .tour-to-satorini .package-2 .package-content h3{
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+        margin: 2px;
+    }
+    .tour-to-satorini .package-2 .package-content p{
+        color: #131318;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        margin: 2px;
+    }
+
+    .tour-to-satorini .package-1 .package-content{
+        width: 303px;
+        left: 16px;
+        top: 64px;
+        padding: 5px;
+    }
+    .tour-to-satorini .package-1 .package-content h3{
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+        margin: 2px;
+    }
+    .tour-to-satorini .package-1 .package-content p{
+        color: #131318;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        margin: 2px;
+    }
+    
+    
+   
 }
 
 /* =================================================
