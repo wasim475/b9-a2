@@ -98,7 +98,7 @@ a{
     text-align: center;
     margin-bottom: 50px;
 }
-form input, select{
+.form-1 input, select{
     color: rgba(19, 19, 24, 0.50); 
     background: #fff;
     width: 160px;
@@ -107,7 +107,7 @@ form input, select{
     border: 0;
 
 }
-form{
+.form-1{
     display: flex;
     background: rgba(255, 255, 255, 0.30); 
     border-radius: 8px;
@@ -492,6 +492,15 @@ form{
 /* =================================================
                  #get-lost End
 =================================================== */
+/* =================================================
+                 #Newsletter part start
+=================================================== */
+.news-letter{
+    display: flex;
+}
+/* =================================================
+                 #news letter End
+=================================================== */
 
 
 
@@ -534,7 +543,7 @@ form{
         height: 480px;
     }
 
-    form{
+    .form-1{
         width: 287px;
         row-gap: 10px;
         flex-direction: column;
