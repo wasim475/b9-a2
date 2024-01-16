@@ -323,13 +323,16 @@ a{
 =================================================== */
 .tour-to-satorini .package-1{
     position: relative;
+    margin-bottom: 10px;
 }
 
 .tour-to-satorini .package-2{
     position: relative;
+    margin-bottom: 10px;
 }
 .tour-to-satorini .package-3{
     position: relative;
+    margin-bottom: 10px;
 }
 /* .package-1 */
 .tour-to-satorini .package-1 .package-content{
