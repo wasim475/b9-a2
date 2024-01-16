@@ -17,6 +17,15 @@ ul, ol{
 a{
     text-decoration: none;
 }
+.btn-primary{
+    background: #FF5400;
+    border: 0;
+    padding: 16px 50px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    
+}
 /* =================================================
                  #Common Shared css end
 =================================================== */
@@ -32,6 +41,9 @@ a{
     display: flex;
     gap: 44px;
     align-items: center;
+}
+.navBar li a:hover{
+    color: #FF5400;
 }
 
 .navBar .travel{
@@ -52,7 +64,7 @@ a{
     position: relative;
 }
 .explore .exploreContent{
-    width: 676px;
+    width: 800px;
     margin: 0 auto;
     position: absolute;
     top: 87px;
@@ -78,11 +90,20 @@ a{
 .findOptions{
     background: rgba(255, 255, 255, 0.30);
     text-align: center;
+    padding:15px 5px;
 }
-.findOptions input{
+.findOptions input, select{
     width: 174px;
     height: 52px;
     padding: 5px 16px;
+    margin-right: 10px;
+    border-radius: 7px;
+    border: 0;
+
+}
+.fa-magnifying-glass{
+    font-size: 1.2rem;
+    margin-right: 5px;
 }
 /* =================================================
                  #Explor part End
