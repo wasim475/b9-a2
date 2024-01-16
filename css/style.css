@@ -634,6 +634,7 @@ footer section{
         right: 20px;
     }
     .explore img{
+        max-width: 100%;
         height: 480px;
     }
 
@@ -641,9 +642,8 @@ footer section{
         width: 287px;
         row-gap: 10px;
         flex-direction: column;
-        top: 170px;
-        right: 10px;
-        left: 10px;
+        top: 190px;
+        left: 30px;
         justify-content: center;
     }
     .popular-tour{
