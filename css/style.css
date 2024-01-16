@@ -446,6 +446,14 @@ form{
     margin-bottom: 32px;
     margin-left: 16px;
  }
+ .button-see-all{
+    width: 50%;
+    margin: 0 auto;
+    transform: translate(40%);
+ }
+ .see-all-package{
+    margin-top: 50px;
+ }
 /* =================================================
                  #tour-to-satorini End
 =================================================== */
@@ -662,7 +670,13 @@ form{
         margin: 2px;
     }
     
-    
+    .button-see-all{
+       
+        transform: translate(10%);
+     }
+     .see-all-package{
+        margin-top: 25px;
+     }
    
 }
 
