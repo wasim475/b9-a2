@@ -632,18 +632,29 @@ footer section{
     position: relative;
     padding: 50px 30px;
     transition: .5s;
+    border: 2px solid #a7f5a7;
+    background-color: #a7f5a7;
+    border-radius: 8px;
 }
 .our-travel-guides .photos >div h3{
     position: absolute;
-    bottom: 60px;
-    left: 60px;
+    bottom: 50px;
+    left: 40px;
     color: #FF5400;
     z-index: -1;
     cursor: pointer;
+    background-color: #a7f5a7;
+    padding: 3px 35px;
+    cursor: pointer;
+    border-radius: 25px;
 }
 .our-travel-guides .photos >div:hover{
     margin-top: -30px;
-    z-index: 2;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+
 }
 
 /* =================================================
@@ -966,7 +977,8 @@ footer section{
     }
     .our-travel-guides .text p{
         font-size: 14px;
-        margin-top: 10px; 
+        margin-top: 10px;
+        margin-bottom: 10px; 
     }
     .our-travel-guides .photos{
         flex-direction: column;
@@ -984,17 +996,21 @@ footer section{
     }
     .our-travel-guides .photos >div h3{
         position: absolute;
-        bottom: 25px;
-        left: 70px;
+        bottom: 50%;
+        right: 50px;
         color: #FF5400;
         display: none;
         cursor: pointer;
+        text-align: center;
     }
     .our-travel-guides .photos >div:hover{
         margin-top: 0px;
     }
     .our-travel-guides .photos >div{
         transition: .5s;
+    }
+    .our-travel-guides .photos >div{
+        background-color: palegreen;
     }
 }
 
