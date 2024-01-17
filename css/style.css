@@ -621,10 +621,11 @@ footer section{
     text-align: center;
     color: rgba(19, 19, 24, 0.70); 
     margin-top: 20px; 
+    margin-bottom: 30px; 
 }
 .our-travel-guides .photos{
     display: flex;
-    column-gap: 12px;
+    column-gap: 20px;
     justify-content: center;
     
 }
@@ -642,7 +643,6 @@ footer section{
     left: 40px;
     color: #FF5400;
     z-index: -1;
-    cursor: pointer;
     background-color: #a7f5a7;
     padding: 3px 35px;
     cursor: pointer;
